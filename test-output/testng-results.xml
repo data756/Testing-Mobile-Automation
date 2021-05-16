@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-15T19:49:17 SGT" name="Suite" finished-at="2021-05-15T19:52:02 SGT" duration-ms="165465">
+    <groups>
+    </groups>
+    <test started-at="2021-05-15T19:49:17 SGT" name="Test" finished-at="2021-05-15T19:52:02 SGT" duration-ms="165465">
+      <class name="practice.appiumframework.PreferencesTest">
+        <test-method signature="APIDemos()[pri:0, instance:practice.appiumframework.PreferencesTest@3b6ddd1d]" started-at="2021-05-15T19:51:25 SGT" name="APIDemos" finished-at="2021-05-15T19:51:52 SGT" duration-ms="27019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIDemos -->
+      </class> <!-- practice.appiumframework.PreferencesTest -->
+      <class name="practice.appiumframework.TotalAmountTest">
+        <test-method is-config="true" signature="killAllNodes()[pri:0, instance:practice.appiumframework.TotalAmountTest@6283d8b8]" started-at="2021-05-15T19:49:17 SGT" name="killAllNodes" finished-at="2021-05-15T19:49:22 SGT" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method signature="validateTotal(java.lang.String)[pri:0, instance:practice.appiumframework.TotalAmountTest@6283d8b8]" started-at="2021-05-15T19:49:22 SGT" name="validateTotal" data-provider="InputDataForName" finished-at="2021-05-15T19:50:32 SGT" duration-ms="70396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotal -->
+        <test-method signature="validateTotal(java.lang.String)[pri:0, instance:practice.appiumframework.TotalAmountTest@6283d8b8]" started-at="2021-05-15T19:50:32 SGT" name="validateTotal" data-provider="InputDataForName" finished-at="2021-05-15T19:51:25 SGT" duration-ms="52893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Argument]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTotal -->
+        <test-method is-config="true" signature="killOpenedEmulator()[pri:0, instance:practice.appiumframework.TotalAmountTest@6283d8b8]" started-at="2021-05-15T19:51:52 SGT" name="killOpenedEmulator" finished-at="2021-05-15T19:52:02 SGT" duration-ms="10031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killOpenedEmulator -->
+      </class> <!-- practice.appiumframework.TotalAmountTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
