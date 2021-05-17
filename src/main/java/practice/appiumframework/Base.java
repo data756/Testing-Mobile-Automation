@@ -98,7 +98,7 @@ public class Base {
 
 		File appDir = new File("src");
 		File app = new File(appDir, (String) prop.getProperty(appName));
-
+		//getting property name from the java class
 		//String deviceName = (String) prop.getProperty("device");
 		String deviceName= System.getProperty("deviceName");
 		if (deviceName.contains("Pixel")) {
