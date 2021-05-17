@@ -19,7 +19,8 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 
 public class Base {
-
+	
+	System.out.println("You are working in BaseClass");
 	public static AppiumDriverLocalService service;
 	public static AndroidDriver<AndroidElement> driver;
 	public static boolean gemulatorIsOn = false;
