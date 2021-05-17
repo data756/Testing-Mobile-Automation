@@ -20,7 +20,7 @@ import io.appium.java_client.service.local.AppiumDriverLocalService;
 
 public class Base {
 	
-	System.out.println("You are working in BaseClass");
+	
 	public static AppiumDriverLocalService service;
 	public static AndroidDriver<AndroidElement> driver;
 	public static boolean gemulatorIsOn = false;
@@ -87,6 +87,7 @@ public class Base {
 
 	public static AndroidDriver<AndroidElement> capabilities(String appName) throws Exception {
 
+		System.out.println("Setting Capabilities for Mobile Automation");
 		FileInputStream fis = new FileInputStream(
 				System.getProperty("user.dir") + "\\src\\main\\java\\practice\\appiumframework\\global.properties");
 		// above line in java will enable fis object to readd the content on the file
